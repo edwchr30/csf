@@ -6,4 +6,9 @@ x = 0
 while (x<lab2.n)
     print "Hello world"
         x = x+1
-done 
+done
+
+# Comments by instructor: Paul Pham, [10/16/2013]
+# Please type out this program again in a file called quiz1.py
+# and correct it until it runs.
+# I've added a file called lab2.py which contains the variable n
