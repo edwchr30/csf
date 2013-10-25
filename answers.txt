@@ -1,0 +1,64 @@
+Name: Chris Edwards
+Evergreen Login: edwchr30
+Computer Science Foundations
+Programming as a Way of Life
+Fall 2013
+Homework 3 
+
+For each problem that requires a written answer, write (or copy-and-paste)
+your answers in this file.  When you are done, you should have replaced all
+the ellipses (the three dots) with your answers.
+
+At the end, you will turn in this file along with your modified
+dna_analysis.py program.
+
+
+Problem 1:
+
+(No answers in this file.)
+
+Problem 2:
+python dna_analysis.py data/sample_1.fastq
+GC-content: 0.43029262963
+
+python dna_analysis.py data/sample_2.fastq
+GC-content: 0.451051333333
+
+python dna_analysis.py data/sample_3.fastq
+GC-content: 0.646864112524
+
+python dna_analysis.py data/sample_4.fastq
+GC-content: 0.347852341166
+
+python dna_analysis.py data/sample_5.fastq
+GC-content: 0.263157894737
+
+python dna_analysis.py data/sample_6.fastq
+GC-content: 0.491518518519
+
+
+Problem 3:
+
+The variable (linenum) is not defined
+
+If I comment out
+    gc_count = 0
+    
+the script cannot print gc_content, which is now broken due to missing variable definitions.
+
+Problem 4:
+
+python dna_analysis.py data/test-small.fastq
+GC-content: 0.3
+AT-content: 0.7
+
+
+Collaboration:
+
+http://ada.evergreen.edu/csf/python13f/web/hw3.html
+
+Reflection:
+
+I'm worried that I missed something.  I maybe spent 20 minutes, start to finish.
+I think it's a great example of how Python can be used to evaluate data.  Though
+I assumed that the assignments would be getting tougher.
