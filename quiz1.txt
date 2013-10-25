@@ -3,10 +3,9 @@
 
 import lab2
 x = 0
-while (x<lab2.n)
+while (x<lab2.n):
     print "Hello world"
-        x = x+1
-done
+    x = x+1
 
 # Comments by instructor: Paul Pham, [10/16/2013]
 # Please type out this program again in a file called quiz1.py
