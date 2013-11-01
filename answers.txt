@@ -52,6 +52,152 @@ python dna_analysis.py data/test-small.fastq
 GC-content: 0.3
 AT-content: 0.7
 
+Problem 5:
+Number of G nucleotides: 1
+Number of C nucleotides: 2
+Number of A nucleotides: 5
+Number of T nucleotides: 2
+
+Problem 6:
+        Chriss-iMac:homework3 edwards$ python dna_analysis.py data/sample_1.fastq
+        Number of G nucleotides: 5738773
+        Number of C nucleotides: 5879128
+        Number of A nucleotides: 7701287
+        Number of T nucleotides: 7661547
+        GC-content: 0.43029262963
+        AT-content: 0.568993851852
+        Sum of individual counts: 26980735.0
+        The total number of bps: 27000000
+        Length of the Sequence: 27000000
+        
+        Chriss-iMac:homework3 edwards$ python dna_analysis.py data/sample_2.fastq
+        Number of G nucleotides: 6103168
+        Number of C nucleotides: 6075218
+        Number of A nucleotides: 7467696
+        Number of T nucleotides: 7331353
+        GC-content: 0.451051333333
+        AT-content: 0.548112925926
+        Sum of individual counts: 26977435.0
+        The total number of bps: 27000000
+        Length of the Sequence: 27000000
+        
+        Chriss-iMac:homework3 edwards$ python dna_analysis.py data/sample_3.fastq
+        Number of G nucleotides: 3008039
+        Number of C nucleotides: 3144239
+        Number of A nucleotides: 1561973
+        Number of T nucleotides: 1796632
+        GC-content: 0.646864112524
+        AT-content: 0.353131156076
+        Sum of individual counts: 9510883.0
+        The total number of bps: 9510928
+        Length of the Sequence: 9510928
+        
+        Chriss-iMac:homework3 edwards$ python dna_analysis.py data/sample_4.fastq
+        Number of G nucleotides: 1620779
+        Number of C nucleotides: 1851138
+        Number of A nucleotides: 3304273
+        Number of T nucleotides: 3204771
+        GC-content: 0.347852341166
+        AT-content: 0.65214294989
+        Sum of individual counts: 9980961.0
+        The total number of bps: 9981008
+        Length of the Sequence: 9981008
+        
+        Chriss-iMac:homework3 edwards$ python dna_analysis.py data/sample_5.fastq
+        Number of G nucleotides: 11
+        Number of C nucleotides: 9
+        Number of A nucleotides: 27
+        Number of T nucleotides: 28
+        GC-content: 0.263157894737
+        AT-content: 0.723684210526
+        Sum of individual counts: 75.0
+        The total number of bps: 76
+        Length of the Sequence: 76
+        
+        Chriss-iMac:homework3 edwards$ python dna_analysis.py data/sample_6.fastq
+        Number of G nucleotides: 7304
+        Number of C nucleotides: 5967
+        Number of A nucleotides: 6867
+        Number of T nucleotides: 6852
+        GC-content: 0.491518518519
+        AT-content: 0.508111111111
+        Sum of individual counts: 26990.0
+        The total number of bps: 27000
+        Length of the Sequence: 27000
+        
+        Chriss-iMac:homework3 edwards$ python dna_analysis.py data/test-high-gc-1.fastq
+        Number of G nucleotides: 12176
+        Number of C nucleotides: 11800
+        Number of A nucleotides: 7970
+        Number of T nucleotides: 7894
+        GC-content: 0.5994
+        AT-content: 0.3966
+        Sum of individual counts: 39840.0
+        The total number of bps: 40000
+        Length of the Sequence: 40000
+        
+        Chriss-iMac:homework3 edwards$ python dna_analysis.py data/test-high-gc-2.fastq
+        Number of G nucleotides: 15955
+        Number of C nucleotides: 15955
+        Number of A nucleotides: 3908
+        Number of T nucleotides: 4023
+        GC-content: 0.79775
+        AT-content: 0.198275
+        Sum of individual counts: 39841.0
+        The total number of bps: 40000
+        Length of the Sequence: 40000
+        
+        Chriss-iMac:homework3 edwards$ python dna_analysis.py data/test-moderate-gc-1.fastq
+        Number of G nucleotides: 9818
+        Number of C nucleotides: 9983
+        Number of A nucleotides: 10077
+        Number of T nucleotides: 9963
+        GC-content: 0.495025
+        AT-content: 0.501
+        Sum of individual counts: 39841.0
+        The total number of bps: 40000
+        Length of the Sequence: 40000
+        
+        Chriss-iMac:homework3 edwards$ python dna_analysis.py data/test-moderate-gc-2.fastq
+        Number of G nucleotides: 7972
+        Number of C nucleotides: 7999
+        Number of A nucleotides: 11813
+        Number of T nucleotides: 12027
+        GC-content: 0.399275
+        AT-content: 0.596
+        Sum of individual counts: 39811.0
+        The total number of bps: 40000
+        Length of the Sequence: 40000
+        
+        Chriss-iMac:homework3 edwards$ python dna_analysis.py data/test-small.fastq
+        Number of G nucleotides: 1
+        Number of C nucleotides: 2
+        Number of A nucleotides: 5
+        Number of T nucleotides: 2
+        GC-content: 0.3
+        AT-content: 0.7
+        Sum of individual counts: 10.0
+        The total number of bps: 10
+        Length of the Sequence: 10
+        
+The differences account for extra sequencing characters
+
+Problem 7:
+AT/GC ratio: 1.32234161747
+
+Problem 8:
+Chriss-iMac:homework3 edwards$ python dna_analysis.py data/sample_1.fastq
+Number of G nucleotides: 5738773
+Number of C nucleotides: 5879128
+Number of A nucleotides: 7701287
+Number of T nucleotides: 7661547
+GC-content: 0.43029262963
+AT-content: 0.568993851852
+AT/GC ratio: 1.32234161747
+Sum of individual counts: 26980735.0
+The total number of bps: 27000000
+Length of the Sequence: 27000000
+This sample is considered to have a moderate GC content
 
 Collaboration:
 
@@ -59,6 +205,5 @@ http://ada.evergreen.edu/csf/python13f/web/hw3.html
 
 Reflection:
 
-I'm worried that I missed something.  I maybe spent 20 minutes, start to finish.
-I think it's a great example of how Python can be used to evaluate data.  Though
-I assumed that the assignments would be getting tougher.
+I think that my answer to number 6 is probably more verbose than you were looking for.
+I left it in though, because I used it to evaluate my output and compare the data manually.
