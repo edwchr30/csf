@@ -1,5 +1,5 @@
-Name: ...
-UW NetID: ...
+# Name: Chris Edwards
+# Evergreen Login: edwchr30
 CSE 140
 Homework 3: Election prediction
 

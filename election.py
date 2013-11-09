@@ -1,5 +1,5 @@
-# Name: ...
-# Evergreen Login: ...
+# Name: Chris Edwards
+# Evergreen Login: edwchr30
 # Programming as a Way of Life
 # Homework 5: Election prediction
 
@@ -35,9 +35,13 @@ def state_edges(election_result_rows):
     The input list does has no duplicate states;
     that is, each state is represented at most once in the input list.
     """
-    #TODO: Implement this function
-    pass
 
+"""
+make a dictionary
+add values to a list
+put specific list values into dictionary
+return dictionary
+"""
 
 ################################################################################
 # Problem 2: Find the most recent poll row
